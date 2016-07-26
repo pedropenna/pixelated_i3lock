@@ -5,6 +5,6 @@
 IMAGE=/tmp/lockscreen.png
 
 scrot $IMAGE
-convert $IMAGE -scale 10% -scale 1000% -fill black -colorize 5% $IMAGE
+convert $IMAGE -scale 10% -scale 1000% $IMAGE
 
 i3lock -u -i $IMAGE
